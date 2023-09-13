@@ -7,3 +7,9 @@ Componentes:
 
 Produção:
   Durante o processo de fermentação, o açúcar da farinha é convertido em humidade e CO2, e o sal é adicionado para fortalecer o glúten e reforçar a fermentação dentro da massa. Nos processos industriais de produção, ocorre a adição de emulsificantes para fortalecer a massa para que eles consigam ser manuseados pelo maquinário.
+
+# Informações Página História
+Frase Temática:
+  O nascimento do pão está associado ao nascimento da civilização, já que a produção intencional dos cereais que o podem constituir tem início no momento em que o homem decide se sedentarizar.
+Primeiro Pão:
+  Pesquisadores do sítio arqueológico de Shubayqa 1, no Jordão, foi uma das primeiras massas de cereal a se assemelhar a um pão. - 14.400 anos atrás
