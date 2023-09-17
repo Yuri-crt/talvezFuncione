@@ -27,5 +27,5 @@ Começo da Fermentação:
 Pão na Grécia:
   Na Grécia antiga, a dificuldade de cultivar o trigo e a cevada levaram os gregos a se tornarem dependentes de importações e a ter uma relação religiosa com o pão. 600 AC
 
-Pão em Roma
+Pão em Roma:
   Em Roma, o pão era utilizado como uma ferramenta politíca através da politíca do pão e circo, e da importância dada aos latifundiários produtores de cereais e aos padeiros. 100 AC
