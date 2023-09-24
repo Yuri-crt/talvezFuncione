@@ -1,13 +1,14 @@
 .imagem_página_principal{
-  height: 200px;
-  width: 350px;
+  height: 350px;
+  width: 500px;
 }
-.intro{
+.principal{
   text-align: justify;
-  font-size: 18;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px;
 }
 .citação{
   text-align: justify;
-  margin-left: 40%;
-  font-size: 10px;
+  margin-left: 60%;
+  font-size: 18px;
 }
