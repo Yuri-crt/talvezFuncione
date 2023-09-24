@@ -1,0 +1,13 @@
+.imagem_página_principal{
+  height: 200px;
+  width: 350px;
+}
+#intro{
+  text-align: justify;
+  font-size: 18;
+}
+.citação{
+  text-align: justify;
+  margin-left: 40%;
+  font-size: 10px;
+}
