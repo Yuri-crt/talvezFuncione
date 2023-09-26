@@ -1,0 +1,89 @@
+.imagem_página_principal{
+  margin-left: 15%;
+  margin-top: -125px;
+  width: 400px;
+  height: 350px;
+  box-shadow: rgb(224, 224, 224) -26px 17px 5px 8px; /* Efeito de sombras na imagens */
+  transition-duration: 0.4s;
+}
+
+.content {
+  margin: 50px 50px;
+}
+
+.principal{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin-bottom: auto;
+  text-shadow: gray 1.5px 1px; /* Efeito de sombra no texto */
+}
+.citação{
+  text-align: justify;
+  margin-left: 50%;
+  position: relative;
+  left: -3%;
+  font-size: 20px;
+}
+
+.menu-Container { /*Container do menu */
+  background-color: lightblue;
+  height: 100px;
+}
+
+.button-menu { 
+  background-color: lightblue;
+  position: relative;
+  border: none;
+  top: -110%;
+  right: 0cm;
+  float: right;
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.button-m:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.header{
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="imagem_página_principal"] {
+    width: 90%;
+    margin-top: auto;
+    margin-left: 10%;
+  }
+  [class*="citação"] {
+    margin-left: 10%;
+  }
+  [class*="menu-Container"] {
+    margin: 1px;
+  }
+}
+
+.header {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -50%;
+  left: -41%;
+}
+
+.header-img {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
