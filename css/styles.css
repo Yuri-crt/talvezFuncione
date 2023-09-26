@@ -68,3 +68,11 @@
     margin: 1px;
   }
 }
+
+.header {
+  text-align: start;
+  margin: auto;
+  position: relative;
+  top: 25%;
+  left: 15px;
+}
