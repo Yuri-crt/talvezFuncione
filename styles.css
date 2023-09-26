@@ -54,3 +54,17 @@
   margin-left: 10px;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="imagem_página_principal"] {
+    width: 90%;
+    margin-top: auto;
+    margin-left: 10%;
+  }
+  [class*="citação"] {
+    margin-left: 10%;
+  }
+  [class*="menu-Container"] {
+    margin: 1px;
+  }
