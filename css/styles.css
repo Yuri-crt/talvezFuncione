@@ -25,17 +25,16 @@
 .menu-Container { /*Container do menu */
   margin-left: 50px;
   margin-right: 50px;
-  background-color: #4CAF50;
+  background-color: lightblue;
   width: auto;
   height: 100px;
 }
 
 .button-menu { 
-  background-color: #4CAF50;
+  background-color: lightblue;
   position: relative;
   border: none;
   right: 0cm;
-  top: -15px;
   float: right;
   color: rgb(0, 0, 0);
   width: 100px;
@@ -50,6 +49,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+<<<<<<< Updated upstream
 .header{
   margin-left: 10px;
   margin-top: 50px;
@@ -68,3 +68,8 @@
   [class*="menu-Container"] {
     margin: 1px;
   }
+=======
+.logo{
+  margin: auto;
+}
+>>>>>>> Stashed changes
