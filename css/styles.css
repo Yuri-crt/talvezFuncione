@@ -7,6 +7,10 @@
   transition-duration: 0.4s;
 }
 
+.content {
+  margin: 50px 50px;
+}
+
 .principal{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,8 +27,6 @@
 }
 
 .menu-Container { /*Container do menu */
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: lightblue;
   width: auto;
   height: 100px;
