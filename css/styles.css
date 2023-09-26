@@ -55,7 +55,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+
   [class*="imagem_página_principal"] {
     width: 90%;
     margin-top: auto;
@@ -67,4 +67,7 @@
   [class*="menu-Container"] {
     margin: 1px;
   }
-}
+
+.logo{
+  margin: auto;
+}}
