@@ -73,8 +73,13 @@
 
 .header {
   text-align: start;
+}
+
+.header-img {
+  width: 75px;
+  height: 75px;
   margin: auto;
   position: relative;
-  top: 25%;
-  left: 15px;
+  top: 15px;
+  left: 20px;
 }
