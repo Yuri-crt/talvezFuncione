@@ -1,9 +1,9 @@
 .imagem_página_principal{
   margin-left: 15%;
-  margin-top: -150px;
+  margin-top: -125px;
   width: 400px;
   height: 350px;
-  box-shadow: rgb(224, 224, 224) -30px 20px 5px 10px; /* Efeito de sombras na imagens */
+  box-shadow: rgb(224, 224, 224) -26px 17px 5px 8px; /* Efeito de sombras na imagens */
   transition-duration: 0.4s;
 }
 
@@ -23,7 +23,8 @@
 }
 
 .menu-Container { /*Container do menu */
-  margin-left: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #4CAF50;
   width: auto;
   height: 100px;
@@ -33,9 +34,9 @@
   background-color: #4CAF50;
   position: relative;
   border: none;
-  left: 18cm;
+  right: 0cm;
   top: -15px;
-  float: left;
+  float: right;
   color: rgb(0, 0, 0);
   width: 100px;
   height: 50px;
@@ -47,4 +48,9 @@
 
 .button-m:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.header{
+  margin-left: 10px;
+  margin-top: 50px;
 }

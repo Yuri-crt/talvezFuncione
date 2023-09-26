@@ -49,11 +49,10 @@ img {
     top: 400px;
     right: 50px;
     width: 280px;
-    height: auto;
    }
   
    .info_content {
-    text-align: justify;
+    text-align: center;
     margin-left: 40px;
     margin-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
