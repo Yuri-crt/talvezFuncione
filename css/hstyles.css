@@ -1,14 +1,15 @@
-.wrapper img {
-  display: block;
-  max-width: 100%;
+header {
+  background-color: rgb(203, 159, 115);
+  width: auto;
+  height: 100px;
 }
 
 .gallery__img img {
   display: block;
-  width: 750px;
-  height: 325px;
+  height: 360px;
+  width: 700px;
   border-style: solid;
-  margin: 10px 5px 10px 50px;
+  margin: 10px 5px 48px 72px;
 }
 
 .gallery__img p {
@@ -19,30 +20,29 @@
   border-radius: 120px;
   border: solid;
   font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 10px;
   margin-left: 27px;
   width: 700px;
-  padding-top: 25px;
-  padding-bottom: 25px;
   padding-left: 45px;
   padding-right: 45px;
   height: 125px;
-  margin-top: 35px;
+  margin-top: 40px;
   margin-bottom: 35px;
 }
 
 .gallery {
+  margin-top: 100px;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 
    @media screen and (min-width: 1200px) {
-    display: block;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    scroll-snap-type: y mandatory;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
    }
 }
 
@@ -50,4 +50,10 @@
    @media screen and (min-width: 1200px) {
     min-width: auto;
    }
+}
+
+::-webkit-scrollbar {
+  background-color: coral;
+  width: 50px;
+  height: 20px;
 }
