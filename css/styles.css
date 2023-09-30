@@ -1,10 +1,19 @@
 .imagem_página_principal{
-  margin-left: 15%;
-  margin-top: -125px;
-  width: 400px;
+  margin-top: -175px;
+  width: auto;
   height: 350px;
   box-shadow: rgb(224, 224, 224) -26px 17px 5px 8px; /* Efeito de sombras na imagens */
   transition-duration: 0.4s;
+}
+
+#imagem_1 {
+  margin-top: -135px;
+  margin-left: 12px;
+}
+
+#imagem_3 {
+  margin-top: -200px;
+  margin-left: 44px;
 }
 
 .content {
@@ -18,6 +27,17 @@
   margin-bottom: auto;
   text-shadow: gray 1.5px 1px; /* Efeito de sombra no texto */
 }
+
+#final {
+  text-align: justify;
+}
+
+#imagem_final {
+  margin-top: auto;
+  width: 1313px;
+  height: 580px;
+}
+
 .citação{
   text-align: justify;
   margin-left: 50%;
