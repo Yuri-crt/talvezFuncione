@@ -26,16 +26,26 @@
   font-size: 20px;
 }
 
-.menu-Container { /*Container do menu */
-  background-color: lightblue;
+header {
+  background-color: rgb(203, 159, 115);
+  width: auto;
   height: 100px;
 }
 
+.header-img {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
 .button-menu { 
-  background-color: lightblue;
+  background-color: rgb(203, 159, 115);
   position: relative;
   border: none;
-  top: -110%;
+  top: -40%;
   right: 0cm;
   float: right;
   color: rgb(0, 0, 0);
@@ -51,9 +61,9 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.header{
-  margin-left: 10px;
-  margin-top: 50px;
+.onome{
+  margin-left: 100px;
+  margin-top: -50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -69,14 +79,6 @@
   [class*="menu-Container"] {
     margin: 1px;
   }
-}
-
-.header {
-  text-align: center;
-  margin: auto;
-  position: relative;
-  top: -50%;
-  left: -41%;
 }
 
 .header-img {
