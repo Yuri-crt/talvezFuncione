@@ -1,8 +1,52 @@
-.imagem_página_principal{
+header {
+  background-color: rgb(203, 159, 115);
+  width: auto;
+  height: 100px;
+}
+
+.header-img {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.buttões {
+  height: 160px;
+}
+
+.button-menu {
+  background-color: rgb(203, 159, 115);
+  position: relative;
+  border: none;
+  top: -40%;
+  right: 0cm;
+  float: right;
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.button-menu:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.onome {
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.imagem_página_principal {
   margin-top: -175px;
   width: auto;
   height: 350px;
-  box-shadow: rgb(224, 224, 224) -26px 17px 5px 8px; /* Efeito de sombras na imagens */
+  box-shadow: #e0e0e0 -26px 17px 5px 8px;
   transition-duration: 0.4s;
 }
 
@@ -20,12 +64,12 @@
   margin: 50px 50px;
 }
 
-.principal{
+.principal {
   text-align: center;
   font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
   font-size: 26px;
   margin-bottom: auto;
-  text-shadow: gray 1.5px 1px; /* Efeito de sombra no texto */
+  text-shadow: gray 1.5px 1px;
 }
 
 #final {
@@ -38,7 +82,7 @@
   height: 580px;
 }
 
-.citação{
+.citação {
   text-align: justify;
   margin-left: 50%;
   position: relative;
@@ -46,66 +90,43 @@
   font-size: 20px;
 }
 
-header {
-  background-color: rgb(203, 159, 115);
-  width: auto;
-  height: 100px;
-}
-
-.header-img {
-  width: 75px;
-  height: 75px;
-  margin: auto;
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.button-menu { 
-  background-color: rgb(203, 159, 115);
-  position: relative;
-  border: none;
-  top: -40%;
-  right: 0cm;
-  float: right;
-  color: rgb(0, 0, 0);
-  width: 100px;
-  height: 50px;
-  text-align: center;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition-duration: 0.4s;
-}
-
-.button-m:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.onome{
-  margin-left: 100px;
-  margin-top: -50px;
-}
-
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="imagem_página_principal"] {
-    width: 90%;
-    margin-top: auto;
-    margin-left: 10%;
+  header {
+    height: 110px;
   }
-  [class*="citação"] {
-    margin-left: 10%;
-  }
-  [class*="menu-Container"] {
-    margin: 1px;
-  }
-}
 
-.header-img {
-  width: 75px;
-  height: 75px;
-  margin: auto;
-  position: relative;
-  top: 15px;
-  left: 20px;
+  .buttões {
+    height: 72px;
+  }
+
+  .onome {
+    margin-left: 100px;
+    margin-top: -55px;
+  }
+
+  .imagem_página_principal {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: none;
+  }
+
+  .citação {
+    margin-left: 10%;
+  }
+
+  #imagem_1 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #imagem_3 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  #imagem_final{
+    height: 0;
+    width: 0;
+  }
 }
