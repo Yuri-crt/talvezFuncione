@@ -41,3 +41,45 @@ header {
     margin-left: 100px;
     margin-top: -50px;
   }
+
+  .titulo {
+    font-family: papyrus;
+    font-size: 64px;
+    margin: 12px 0 4px 120px;
+  }
+  
+  .img_esq, .img_dir {
+    width: 560px;
+    border-radius: 24px;
+    margin: 16px;
+  }
+  
+  .info, .info_2 {
+    width: 56%;
+    text-align: justify;
+    font-size: 24px;
+    border-color: brown;
+    border-radius: 12px;
+    margin: 0 24px;
+    border-width: 6px;
+    border-style: double;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+  }
+
+  #i-1 {
+    top: 21vw;
+  }
+  
+  #i-2 {
+    top: 47vw;
+  }
+
+  #i-3 {
+    top: 69vw;
+  }
+
+  div {
+    height: auto;
+  }
